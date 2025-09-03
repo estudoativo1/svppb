@@ -247,7 +247,7 @@
                     radios.forEach(radio => {
                         if (radio.checked) {
                             isAnswered = true;
-                            const isCorrect = radio.value === radio.dataset.correct-answer;
+                            const isCorrect = radio.value === radio.dataset.correctAnswer;
                             const resultMessage = q.querySelector('.result-message');
                             const resolutionComment = q.querySelector('.resolution-comment');
                             
