@@ -164,11 +164,7 @@
 </head>
 <body class="flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8 relative">
 
-    <!-- Dark Mode Toggle Button -->
-    <button id="theme-toggle" class="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 shadow-md hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Alternar modo claro/escuro">
-        <svg class="h-6 w-6 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h1M3 12H2m8.003-9.997a4.5 4.5 0 015.994 5.994L12 12l-2.003 2.003a4.5 4.5 0 01-5.994-5.994L12 12l2.003-2.003a4.5 4.5 0 015.994 5.994z"></path></svg>
-        <svg class="h-6 w-6 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
-    </button>
+
 
     <div class="container rounded-2xl shadow-xl w-full max-w-xl md:max-w-3xl p-6 sm:p-8 md:p-12 flex flex-col items-center">
         <!-- Título e descrição -->
@@ -250,7 +246,7 @@
             const errorMessage = document.getElementById('error-message');
             const successMessage = document.getElementById('success-message');
             const subjectError = document.getElementById('subject-error');
-            const themeToggle = document.getElementById('theme-toggle');
+           // const themeToggle = document.getElementById('theme-toggle');
             const clearSubjectBtn = document.getElementById('clear-subject-btn');
 
             // Novas constantes para os elementos do dashboard
