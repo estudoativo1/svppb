@@ -265,15 +265,15 @@
             const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyA5yXOkwfWOLPv7pnL3ZacEsiuzX8e9JQ4";
 
             // Dark Mode Toggle Functionality
-            themeToggle.addEventListener('click', () => {
-                document.body.classList.toggle('dark-mode');
-                localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
-            });
+           // themeToggle.addEventListener('click', () => {
+           //     document.body.classList.toggle('dark-mode');
+          //      localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+          //  });
 
             // Apply saved theme on load
-            if (localStorage.getItem('theme') === 'dark') {
-                document.body.classList.add('dark-mode');
-            }
+          //  if (localStorage.getItem('theme') === 'dark') {
+          //      document.body.classList.add('dark-mode');
+         //   }
 
             // Clear Subject Selection
             clearSubjectBtn.addEventListener('click', () => {
